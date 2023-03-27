@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    --primary: rgb(250, 78, 21);
+    --sub: rgb(208, 144, 33);
+    --white: rgb(255, 255, 255);
+    --black: rgb(0, 0, 0);
+    --grey: #404040;
+    --boder: #d1d1d1;
+    --hover: #eee;
+    --text: #616161;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 16px;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Nunito', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a[href] {
+    text-decoration: none;
+}
